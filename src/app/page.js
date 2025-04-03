@@ -30,7 +30,7 @@ export default function Home() {
           placeholder="Enter URL"
           value={url}
           onChange={(e) => setUrl(e.target.value)}
-          className="p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="text-black p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
           required
         />
         <button
